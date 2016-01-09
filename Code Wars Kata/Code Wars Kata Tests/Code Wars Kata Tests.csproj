@@ -54,7 +54,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="FilterCoffeeTest\FilterCoffeeTests.cs" />
+    <Compile Include="CompoundArrayTests\CompoundArrayTests.cs" />
+    <Compile Include="FilterCoffeeTests\FilterCoffeeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -66,6 +67,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
